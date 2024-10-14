@@ -8,13 +8,21 @@ nav {
     font-size: 21px;
 }
 
-.horizontal_body {
+.horizontal-body {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     width:100%;
 }
 
+body {
+    display:-moz-stack
+}
+
 .left-section, .right-section, body {
     text-align:center;
+}
+
+.classes { 
+    text-align: left;
 }
 
